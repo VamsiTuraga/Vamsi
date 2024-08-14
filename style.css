@@ -1,17 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
 header {
-  text-align: center;
+    text-align: center;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+section {
+    margin-bottom: 30px;
+}
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
-/* Add more CSS styles as needed */
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #333;
+    text-decoration: none;
+}
